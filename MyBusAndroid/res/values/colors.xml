@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item name="color_511a" type="color">#4d0302</item>
+    <item name="color_511b" type="color">#4d0302</item>
+    <item name="color_511ch" type="color">#4d0302</item>
+    <item name="color_511f" type="color">#4d0302</item>
+    <item name="color_511g" type="color">#4d0302</item>
+    <item name="color_511p" type="color">#4d0302</item>
+    <item name="color_511Ron" type="color">#4d0302</item>
+    <item name="color_512a" type="color">#4d0302</item>
+    <item name="color_512b" type="color">#4d0302</item>
+    <item name="color_521" type="color">#d60405</item>
+    <item name="color_522" type="color">#d60405</item>
+    <item name="color_523" type="color">#d60405</item>
+    <item name="color_525" type="color">#d60405</item>
+    <item name="color_531" type="color">#2c800e</item>
+    <item name="color_532" type="color">#2c800e</item>
+    <item name="color_533" type="color">#2c800e</item>
+    <item name="color_541" type="color">#d60405</item>
+    <item name="color_542" type="color">#d60405</item>
+    <item name="color_543" type="color">#d60405</item>
+    <item name="color_551" type="color">#d60405</item>
+    <item name="color_552" type="color">#d60405</item>
+    <item name="color_552a" type="color">#d60405</item>
+    <item name="color_553" type="color">#d60405</item>
+    <item name="color_554" type="color">#d60405</item>
+    <item name="color_555" type="color">#d60405</item>
+    <item name="color_562" type="color">#00338e</item>
+    <item name="color_563a" type="color">#00338e</item>
+    <item name="color_563b" type="color">#00338e</item>
+    <item name="color_571a" type="color">#f77306</item>
+    <item name="color_571b" type="color">#f77306</item>
+    <item name="color_573" type="color">#f77306</item>
+    <item name="color_573b" type="color">#f77306</item>
+    <item name="color_581" type="color">#e50000</item>
+    <item name="color_591a" type="color">#2e88d6</item>
+    <item name="color_591b" type="color">#2e88d6</item>
+    <item name="color_593a" type="color">#2e88d6</item>
+    <item name="color_593b" type="color">#2e88d6</item>
+    <item name="color_717cv" type="color">#4d0302</item>
+    <item name="color_717lp" type="color">#4d0302</item>
+    <item name="color_717sp" type="color">#4d0302</item>
+    <item name="color_720" type="color">#01755e</item>
+    <item name="origin_blue" type="color">#008ed8</item>
+    <item name="dest_purple" type="color">#d80056</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="black" type="color">#000000</item>
+    <item name="mybus_gray_dark" type="color">#343434</item>
+    <item name="mybus_gray_light" type="color">#6b6b6b</item>
+  	<item name="background_base_window" type="color">#eeeeee</item>
+  	<item name="pure_white" type="color">#ffffff</item>
+  	<item name="naranja1" type="color">#D7AD00</item>
+  	<item name="light_gray" type="color">#b7bbbf</item>
+  	<item name="splash_silver" type="color">#f2f2f3</item>
+
+    
+</resources>

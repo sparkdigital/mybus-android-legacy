@@ -1,0 +1,85 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/MyBusActionBar</item>
+        <item name="actionBarStyle">@style/MyBusActionBar</item>
+
+   		<!-- Straight import from http://stackoverflow.com/questions/16404820/how-to-set-default-font-family-for-entire-android-app -->
+   	    <!--  <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+   	    <item name="android:editTextStyle">@style/RobotoTextViewStyle</item>
+	    <item name="android:buttonStyle">@style/RobotoButtonStyle</item>-->
+	    <item name="android:typeface">sans</item>
+        
+    </style>
+
+    <style name="listRow" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="list" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:background">@color/mybus_gray_light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Straight import from http://stackoverflow.com/questions/16404820/how-to-set-default-font-family-for-entire-android-app -->
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    
+    <!-- Straight import from http://stackoverflow.com/questions/5861661 -->
+    <style name="MyBusActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/mybus_gray_dark</item>
+        <item name="background">@color/mybus_gray_dark</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+        <item name="titleTextStyle">@style/ActionBarTitleText</item>
+    </style>
+
+    <style name="ActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ActionBarSubTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="DefaultWhiteText" parent="@style/AppTheme">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="ButtonDefaultStyle">
+        <item name="android:background">@layout/button_bg</item>
+        <item name="background">@layout/button_bg</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    
+    <style name="Bg_infobus">
+        <item name="android:background">@layout/litght_bg_infobus</item>
+        <item name="background">@layout/litght_bg_infobus</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main_filter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@layout/layout_bg"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logoblanco" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:background="@null"
+        android:orientation="horizontal"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" >
+
+        <LinearLayout
+            android:id="@+id/layout_orig_dest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@layout/statusmode_origin"
+            android:gravity="center|left" >
+
+            <TextView
+                android:id="@+id/tv_orig_dest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="@string/Origin"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/pure_white"
+                android:textSize="20dp"
+                android:typeface="sans" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|right" >
+
+            <LinearLayout
+                android:id="@+id/Layout_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null" >
+
+                <ImageButton
+                    android:id="@+id/b_favorites"
+                    style="@style/ButtonDefaultStyle"
+                    android:layout_marginLeft="3dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/favorite" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Layout_gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null" >
+
+                <ImageButton
+                    android:id="@+id/b_gps"
+                    style="@style/ButtonDefaultStyle"
+                    android:layout_marginLeft="3dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/location" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/b_switch"
+                    style="@style/ButtonDefaultStyle"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:cropToPadding="false"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/cambio" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:paddingBottom="5dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" >
+
+        <LinearLayout
+            android:id="@+id/Layout_origin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:visibility="visible" >
+
+            <ImageButton
+                android:id="@+id/b_back_1"
+                style="@style/ButtonDefaultStyle"
+                android:layout_marginLeft="3dp"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/backhome" />
+
+            <EditText
+                android:id="@+id/et_origin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/IngreseOrigen"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <ImageButton
+                android:id="@+id/b_confirm_origin"
+                style="@style/ButtonDefaultStyle"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/nextdestino" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Layout_destiny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:visibility="invisible" >
+
+            <ImageButton
+                android:id="@+id/b_back_2"
+                style="@style/ButtonDefaultStyle"
+                android:layout_marginLeft="3dp"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/backorigen" />
+
+            <EditText
+                android:id="@+id/et_destiny"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="@string/IngreseDestino"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+                <!-- android:textColorLink="@android:color/holo_blue_light"  -->
+
+            <ImageButton
+                android:id="@+id/b_confirm_destiny"
+                style="@style/ButtonDefaultStyle"
+                android:layout_marginRight="3dp"
+                android:padding="4dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/botonbuscar" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
